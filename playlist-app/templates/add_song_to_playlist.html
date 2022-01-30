@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="m-4">Add new song to Playlist</h1>
+
+<div class="container">
+    <div class="row justify-content-lg-center">
+        <form method="POST">
+            {% include "form.html" %}
+            <button class="btn btn-primary" style='min-width: 200px;'>Add</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
